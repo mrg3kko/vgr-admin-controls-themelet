@@ -1,0 +1,1 @@
+<#assign fooBar = "bez" />

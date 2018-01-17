@@ -1,0 +1,34 @@
+$controlMenuHeight: 64px;
+
+.custom-admin-controls-closed {
+
+  // Hide control menu
+  .control-menu {
+     display: none;
+  }
+
+
+
+  // Hide portlet titles
+	.portlet {
+		.portlet-topper {
+			display: none;
+		}
+
+		.portlet-content {
+			.portlet-title-text {
+				display: none;
+			}
+		}
+
+	}
+
+}
+
+.custom-admin-controls-open {
+
+  // Display control menu
+  .control-menu {
+     display: block;
+  }
+}
